@@ -41,7 +41,7 @@ Das Repo ist eine statische Seite (GitHub `cpracher-cloud/cp7.beer`, Branch `mai
 
 ## Design-Skills (nur wenn Design neu gebaut oder überarbeitet wird)
 
-Liefert der Nutzer eine fertige HTML-Datei, wird sie unverändert eingesetzt (Schritt 3). Soll eine Seite neu gestaltet, überarbeitet oder verbessert werden, vorher die passenden Skills mit dem Skill-Tool laden und deren Anweisungen befolgen:
+Liefert der Nutzer eine fertige HTML-Datei, wird sie unverändert eingesetzt (Schritt 3). Soll eine Seite neu gestaltet, überarbeitet oder verbessert werden, vorher die passenden Skills mit dem Skill-Tool laden und deren Anweisungen befolgen. Die Skills liegen als Kopie auch in diesem Repo unter `.claude/skills/<name>/SKILL.md`:
 
 - `html-schriften`: immer für die Schriftauswahl auf neuen oder überarbeiteten Seiten.
 - `impeccable`: Gestaltung, Kritik, Politur, Layout, Typografie, Farbe, Responsivität, Barrierefreiheit.
