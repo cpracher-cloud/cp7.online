@@ -39,6 +39,18 @@ Das Repo ist eine statische Seite (GitHub `cpracher-cloud/cp7.beer`, Branch `mai
 7. **Committen und pushen:** `git add -A`, kurze Commit-Nachricht (z. B. "Add project <titel>"), `git push`. Schlägt der Push mit "fetch first" fehl, zuerst `git pull --rebase origin main`.
 8. **Rückmeldung:** Die Adresse nennen, `https://cp7.online/projects/<slug>/`, und sagen, dass der Build bei Cloudflare ein bis zwei Minuten dauert.
 
+## Design-Skills (nur wenn Design neu gebaut oder überarbeitet wird)
+
+Liefert der Nutzer eine fertige HTML-Datei, wird sie unverändert eingesetzt (Schritt 3). Soll eine Seite neu gestaltet, überarbeitet oder verbessert werden, vorher die passenden Skills mit dem Skill-Tool laden und deren Anweisungen befolgen. Die Skills liegen als Kopie auch in diesem Repo unter `.claude/skills/<name>/SKILL.md`:
+
+- `html-schriften`: immer für die Schriftauswahl auf neuen oder überarbeiteten Seiten.
+- `impeccable`: Gestaltung, Kritik, Politur, Layout, Typografie, Farbe, Responsivität, Barrierefreiheit.
+- `ui-ux-pro-max`: Stile, Farbpaletten, Schriftpaarungen und UX-Richtlinien nachschlagen.
+- `interaction-design`: Mikrointeraktionen, Übergänge, Animationen, Lade- und Feedback-Zustände.
+- `shadcn`: nur wenn das Projekt shadcn/ui-Komponenten nutzt (z. B. eine `components.json` vorhanden ist). Die Projektseiten sind statisches HTML ohne Build, daher sonst nicht einsetzen.
+
+Auch dann gilt: Kopf-Prüfung (Schritt 4) und `noindex` bleiben bestehen.
+
 ## Projekt entfernen
 
 Ordner `projects/<slug>` löschen und den Eintrag aus `projects.json` streichen, danach committen und pushen. Das ist eine Löschung, daher vorher den Nutzer fragen.
